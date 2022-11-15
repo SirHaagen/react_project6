@@ -1,0 +1,33 @@
+
+.form{
+  width: 60%;
+  background: linear-gradient(#F8EDE3, #c9c0b8);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.form *{
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+.form :last-child{
+  width: 40%;
+  margin-top: 20px;
+  background-color: #c2b9af;
+  box-shadow: 3px 3px 3px #363432;
+  align-self: center;
+}
+.form :last-child:hover{
+  width: 40%;
+  margin-top: 20px;
+  background-color: #e2d9d0;
+  box-shadow: 3px 3px 3px #363432;
+  cursor: pointer;
+}
+.form :last-child:active{
+  background-color: #3d3b3a;
+  color: #ffffff;
+  box-shadow: 3px 3px 3px inset #363432;
+}
